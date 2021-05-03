@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Premium Bank",
+  headline: "Unlimited Transaction with zero fees",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex inventore, fugiat consectetur numquam incidunt amet necessitatibus fugit labore veritatis laudantium.",
+  buttonLabel: "Get started",
+  imgStart: false,
+  img: require("../../images/svg-1.svg").default,
+  alt: "car",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+export const homeObjTwo = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Unlimited Access",
+  headline: "Unlimited Transaction with zero fees",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex inventore, fugiat consectetur numquam incidunt amet necessitatibus fugit labore veritatis laudantium.",
+  buttonLabel: "Get started",
+  imgStart: true,
+  img: require("../../images/svg-2.svg").default,
+  alt: "Lady",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+export const homeObjThree = {
+  id: "contact",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Contact",
+  headline: "Contact Us",
+  description:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex inventore, fugiat consectetur numquam incidunt amet necessitatibus fugit labore veritatis laudantium.",
+  buttonLabel: "Contact Us",
+  imgStart: false,
+  img: require("../../images/svg-3.svg").default,
+  alt: "car",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
